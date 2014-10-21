@@ -1,8 +1,8 @@
 /*
 	Author: Tanner Garrett
-	Date: 10/7/2014
+	Date: 10/17/2014
 	TA: Zachary Balter
-	Description: This page contains all of the CSS rules and fonts required to style an informative page about the hip, new restaurant Dawg Pizza.
+	Description: This page contains all of the CSS rules and fonts required to style an informative page about the hip, new restaurant Dawg Pizza. It also defines how the page should be styled for different sized screens.
 */
 
 /* Imported Fonts */
@@ -54,7 +54,7 @@ h3 {
 }
 
 h1, h2, h3 {
-	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif; 
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
 h2, h3 {
@@ -94,11 +94,13 @@ nav li {
 }
 
 nav ul {
-	margin: none;
-	padding: none;
+	margin: 0;
+	padding: 0;
 }
 
 .container-fluid{
+	margin-top: 0;
+	margin:bottom 0;
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
@@ -127,7 +129,7 @@ header, footer, #aboutus, #geninfo, #menuinfo {
 	padding: 1em;
 }
 
-/* Media Queries */
+/* Media Queries For Screens Over 992 Pixals*/
 
 @media (min-width: 992px) {
 	body {
